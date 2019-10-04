@@ -1,0 +1,44 @@
+
+Clover EFI installer log - Sat Sep 28 18:56:19 CEST 2019
+Installer version: v2.5k r5070 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         1.0 TB     disk0
+   1:                        EFI ESP_MAC                 209.7 MB   disk0s1
+   2:                        EFI WINDOWS EFI             524.3 MB   disk0s2
+   3:                        EFI OC EFI                  1.1 GB     disk0s3
+   4:       Microsoft Basic Data Windows 10              150.0 GB   disk0s4
+   5:                 Apple_APFS Container disk1         843.7 GB   disk0s5
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +843.7 GB   disk1
+                                 Physical Store disk0s5
+   1:                APFS Volume Beta - Data             5.1 GB     disk1s1
+   2:                APFS Volume Production              507.0 GB   disk1s2
+   3:                APFS Volume Preboot                 112.5 MB   disk1s3
+   4:                APFS Volume Recovery                1.0 GB     disk1s4
+   5:                APFS Volume VM                      1.1 MB     disk1s5
+   6:                APFS Volume Beta                    10.5 GB    disk1s6
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *4.0 TB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Time Machine            999.3 GB   disk2s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk2s3
+   4:                  Apple_HFS Lightroom Library       999.9 GB   disk2s4
+   5:                  Apple_HFS macOS                   1000.0 GB  disk2s5
+   6:       Microsoft Basic Data NTFS                    1.0 TB     disk2s6
+
+Target volume /Volumes/Production on disk1 is APFS on physical store disk0s5
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
