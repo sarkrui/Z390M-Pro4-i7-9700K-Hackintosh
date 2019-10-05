@@ -10,7 +10,7 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X smothly.
 - **Clover Bootloader** (r5070)
 - **be quiet! Dark Rock Pro 4** (250w TDP, highly recommended)
 - **Kingston HyperX Fury Black 16GB** 3200MHz DDR4 8G * 2 (3200MHz OC)
-- **WD Black 2018/PC SN720 NVMe 1T SSD **
+- **WD Black 2018/PC SN720 NVMe 1T SSD**
 - **Sapphire RX 580 Nitro+ 8G** (*BruceX 5K* Apple Res 422 Master Exporting time **21s**)
 - **BCM94331CD** Wi-Fi/Bluetooth + [M.2 NGFF Key A+E Adapter](https://www.ebay.co.uk/itm/BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M-2/223633015347?hash=item3411910233:g:clQAAOSwI7lcld~Z) 
 
@@ -56,7 +56,7 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X smothly.
 #### Option 2: Command-line
 
 - Download Mojave 10.14.X from App Store
-- [Guide] Creating OSX Installer by Rehabman](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) 
+- [[Guide] Creating OSX Installer by Rehabman](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) 
 
 ### Changelog
 
