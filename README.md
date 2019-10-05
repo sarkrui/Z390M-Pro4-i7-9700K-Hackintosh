@@ -20,7 +20,11 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no 
 
 ![image-20191005011344996](https://i.imgur.com/ygmo7NY.png)
 
-![USBs Mapping-01](https://i.imgur.com/DCBv66S.png)
+![USBs Mapping](https://i.imgur.com/HIF3xoe.png)
+
+![](https://i.imgur.com/9XxFhqK.gif)
+
+(*Since I do not have any front USB, only the rear ones were enabled.*)
 
 ### What works
 
@@ -43,9 +47,9 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no 
 > We don't recommend users to update the BIOS if their system is already running normally.
 >
 
-1. Download `Hackintosh-BIOS.BIN` from the release page or Clone the whole repository (the file is under /BIOS_settings) and place it in an `FAT32` USB. 
+1. Download `Hackintosh-BIOS.BIN` from the release page or Clone the whole repository (the file is under <repositoryDirectory>/BIOS_settings) and place it in an `FAT32` USB. 
 2. Enter `BIOS setup`
-3. direct to `OC Tweaker`\  `Load USER UEFI Setup Profile from Disk`, 
+3. direct to `OC Tweaker`/ `Load USER UEFI Setup Profile from Disk`
 4. select `Hackintosh-BIOS.BIN` from your USB.
 
 ### Installation
