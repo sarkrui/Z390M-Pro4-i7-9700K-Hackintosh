@@ -29,22 +29,24 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no 
 - **iMessage** (complete serial required) 
 - **All USB3.1 Gen1/USB2.0 ports** (few USB2.0 ports disabled) 
 - **HDMI Audio** (**Sound Control** is required to adjust volume)
+- **Onboard HD Audio** (Realtek alc892, layout id: 1)
 
 ### Bugs 
 
-- **USB 3.1 Gen2 Hotplugging** (type-c port only works if the device is hocked up before booting up)
-- **USB Type-C has no video output** (iGPU video output has been disabled since this is required by the dGPU HW acceleration)
-- **Onboard HD Audio not working** 
+- **USB 3.1 Gen2** (may require a USB3.1 Gen2 to PCIe Card)
+- **USB Type-C has no video output** (iGPU video output has been disabled to enable dGPU HW acceleration)
 
 ### BIOS Settings
 
 * **BIOS Version P1.3** (*Please do not upgrade!* I was **NOT** able to boot up macOS with P4.X BIOSs and I had to disassemble the chip and flash P1.30 firmware.) 
 
-  > We don't recommend users to update the BIOS if their system is already running normally.
+> We don't recommend users to update the BIOS if their system is already running normally.
+>
 
-* Download `Hackintosh-BIOS.BIN` from the release page or Clone the whole repository (the file is under /BIOS_settings) and place it in an `FAT32` USB. 
-
-* Enter BIOS setup, `Load BIOS settings from drive`, select the one from your USB.
+1. Download `Hackintosh-BIOS.BIN` from the release page or Clone the whole repository (the file is under /BIOS_settings) and place it in an `FAT32` USB. 
+2. Enter `BIOS setup`
+3. direct to `OC Tweaker`\  `Load USER UEFI Setup Profile from Disk`, 
+4. select `Hackintosh-BIOS.BIN` from your USB.
 
 ### Installation
 
@@ -59,6 +61,10 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no 
 - [[Guide] Creating OSX Installer by Rehabman](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) 
 
 ### Changelog
+
+#### 2019/10/05
+
+* Fixed onbard HD audio output
 
 #### 2019/10/05
 
