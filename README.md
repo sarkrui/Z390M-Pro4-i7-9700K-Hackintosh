@@ -1,14 +1,14 @@
 # Z390MPro4-i7-9700K-Sapphire-RX580
 ### Introduction
 
-This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no hassle. However, due to the time constraint, a step by step installation guide won't be covered in this guide. For more information (regarding installation), please check [[Guide] Creating OSX Installer by Rehabman](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) or installing [Mojave 10.14.x](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/) with [Etcher](https://www.balena.io/etcher/).
+This repository is designed for Asrock Z390MPro4  to run **Mojave 10.14.X/Catalina 10.15.X** with no hassle. However, due to the time constraint, a step by step installation guide won't be covered in this guide. For more information (regarding installation), please check [[Guide] Creating OSX Installer by Rehabman](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) or installing [Mojave 10.14.x](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/) with [Etcher](https://www.balena.io/etcher/).
 
 ### Specs
 
 - **Asrocks Z390M Pro4** (M.2 Key B * 2 + M.2 Key A+E * 1 + PCIe 3.0 x16 * 2)
 - **Intel i7-9700K** (5.0 GHz OC, SMBIOS **iMac19,1**)
 - **Clover Bootloader** (r5070)
-- **be quiet! Dark Rock Pro 4** (250w TDP, highly recommended)
+- **Be quiet! Dark Rock Pro 4** (250w TDP, highly recommended)
 - **Kingston HyperX Fury Black 16GB** 3200MHz DDR4 8G * 2 (3200MHz OC)
 - **WD Black 2018/PC SN720 NVMe 1T SSD**
 - **Sapphire RX 580 Nitro+ 8G** (*BruceX 5K* Apple Res 422 Master Exporting time **21s**)
@@ -19,6 +19,13 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no 
 ![](https://i.imgur.com/WpDL9K3.png)
 
 ![image-20191005011344996](https://i.imgur.com/ygmo7NY.png)
+
+![System Brief](https://i.imgur.com/EA4z8lF.jpg)
+
+![](https://i.imgur.com/k1tdKLX.png)
+
+![](https://i.imgur.com/cT4NhqS.png)
+
 
 ![USBs Mapping](https://i.imgur.com/HIF3xoe.png)
 
@@ -65,6 +72,11 @@ This repository is designed for Asrock Z390MPro4  to run Mojave 10.14.X with no 
 - [[Guide] Creating OSX Installer by Rehabman](https://www.tonymacx86.com/threads/guide-booting-the-os-x-installer-on-laptops-with-clover.148093/) 
 
 ### Changelog
+
+#### 2019/11/01
+
+* Update kexts/driver
+* Catalina 10.15.1 compatiable
 
 #### 2019/10/05
 
