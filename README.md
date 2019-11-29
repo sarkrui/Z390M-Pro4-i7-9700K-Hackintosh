@@ -6,13 +6,13 @@ This repository is designed for Asrock Z390MPro4  to run **Mojave 10.14.X/Catali
 ### Specs
 
 - **Asrocks Z390M Pro4** (M.2 Key B * 2 + M.2 Key A+E * 1 + PCIe 3.0 x16 * 2)
-- **Intel i7-9700K** (5.0 GHz OC, SMBIOS **iMac19,1**)
-- **Clover Bootloader** (r5070)
+- **Intel i7-9700K** (4.9GHz GHz OC, SMBIOS **iMac19,1**)
+- **Clover Bootloader** (r5070) / **OpenCore** (0.5.3)
 - **Be quiet! Dark Rock Pro 4** (250w TDP, highly recommended)
 - **Kingston HyperX Fury Black 16GB** 3200MHz DDR4 8G * 2 (3200MHz OC)
 - **WD Black 2018/PC SN720 NVMe 1T SSD**
-- **Sapphire RX 580 Nitro+ 8G** (*BruceX 5K* Apple Res 422 Master Exporting time **21s**)
-- **BCM94331CD** Wi-Fi/Bluetooth + [M.2 NGFF Key A+E Adapter](https://www.ebay.co.uk/itm/BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M-2/223633015347?hash=item3411910233:g:clQAAOSwI7lcld~Z) 
+- **Sapphire RX 580 Nitro+ 8G** (*BruceX 5K* Apple Res 422 Master Exporting time **13s**)
+- **Apple BCM94360CD** Wi-Fi/Bluetooth + [M.2 NGFF Key A+E Adapter](https://www.ebay.co.uk/itm/BCM94360CS2-BCM943224PCIEBT2-12-6-Pin-WIFI-wireless-card-module-to-NGFF-M-2/223633015347?hash=item3411910233:g:clQAAOSwI7lcld~Z) 
 
 ### Performance
 
@@ -44,7 +44,7 @@ This repository is designed for Asrock Z390MPro4  to run **Mojave 10.14.X/Catali
 
 ### Bugs 
 
-- **USB 3.1 Gen2** (may require a USB3.1 Gen2 to PCIe Card)
+- **USB 3.1 Gen2** (may require a USB3.1 Gen2 to PCIe Card, i.g. ASM1142 chip-based)
 - **USB Type-C has no video output** (iGPU video output has been disabled to enable dGPU HW acceleration)
 
 ### BIOS Settings
@@ -63,7 +63,7 @@ This repository is designed for Asrock Z390MPro4  to run **Mojave 10.14.X/Catali
 
 #### Option 1: GUI (recommended)
 
-- [Mojave 10.14.X Download](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
+- [Mojave 10.14.X Download](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/) (*expired, will be fixed later on*)
 - [Install macOS with etcher](https://www.balena.io/etcher/)
 
 #### Option 2: Command-line
@@ -73,10 +73,18 @@ This repository is designed for Asrock Z390MPro4  to run **Mojave 10.14.X/Catali
 
 ### Changelog
 
+#### 2019/11/29
+
+* Add **OpenCore** Bootloader support
+* **NVRAM** tested (motherboard CFG clock disabled)
+* Remove **WhateverGreen** for 1.2GHz iGPU clock speed
+* Upate kexts, BIOS settings 
+* Replace **BCM94331CD** with **BCM94360CD** for better AirDrop/Handoff support
+
 #### 2019/11/01
 
 * Update kexts/driver
-* Catalina 10.15.1 compatiable
+* **Catalina 10.15.1** compatiable
 
 #### 2019/10/05
 
